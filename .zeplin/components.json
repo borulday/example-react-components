@@ -6,11 +6,32 @@
     "components": [
         {
             "path": "src/components/Button/Button.js",
+            "urlPaths": {
+                "github": "src/components/Button/Button.js"
+            },
             "zeplinNames": [
                 "Controls / Button / Primary",
                 "Controls / Button / Primary, Hover",
-                "Controls / Button / Primary, Pressed",
-                "Controls / Button / Apple Pay",
+                "Controls / Button / Primary, Pressed"
+            ]
+        },
+        {
+            "name": "Cool special Apple Pay button",
+            "path": "src/components/Button/Button.js",
+            "urlPaths": {
+                "github": "src/components/Button/Button.js"
+            },
+            "zeplinNames": [
+                "Controls / Button / Apple Pay"
+            ]
+        },
+        {
+            "name": "Tag button",
+            "path": "src/components/Button/Button.js",
+            "urlPaths": {
+                "github": "src/components/Button/Button.js"
+            },
+            "zeplinNames": [
                 "Controls / Button / Tag, Hover",
                 "Controls / Button / Tag",
                 "Controls / Button / Tag, Selected"
@@ -19,9 +40,6 @@
         {
             "name": "This is my lovely link!",
             "path": "src/components/Link/Link.js",
-            "urlPaths": {
-                "custom": "about"
-            },
             "zeplinNames": [
                 "Link"
             ]
@@ -63,6 +81,7 @@
         {
             "path": "src/components/Star/Star.js",
             "urlPaths": {
+                "github": "src/components/Star/Star.js",
                 "custom": "about"
             },
             "zeplinNames": [
@@ -76,11 +95,11 @@
         {
             "name": "Zeplin",
             "type": "custom",
-            "url": "https://zeplin.io/connected-components"
+            "url": "https://zeplin.io"
         },
         {
             "type": "github",
-            "url": "https://github.com/zeplin/zeplin-react-component"
+            "url": "https://github.com/zeplin/example-react-components/tree/master"
         }
     ]
 }
