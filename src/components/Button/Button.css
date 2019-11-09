@@ -1,0 +1,27 @@
+.button {
+    margin: 12px;
+    font-size: 18px;
+    height: 65px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+    cursor: pointer;
+    color: var(--teflon);
+}
+
+.primary {
+    background: var(--turquoise);
+}
+
+.secondary {
+    background: var(--green);
+}
+
+.error {
+    background: var(--grapefruit);
+}
+
+.warning {
+    background: var(--yellow);
+}

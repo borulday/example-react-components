@@ -1,0 +1,86 @@
+{
+    "projects": [],
+    "styleguides": [
+        "5dc5288c4c166a77d39d17f4"
+    ],
+    "components": [
+        {
+            "path": "src/components/Button/Button.js",
+            "zeplinNames": [
+                "Controls / Button / Primary",
+                "Controls / Button / Primary, Hover",
+                "Controls / Button / Primary, Pressed",
+                "Controls / Button / Apple Pay",
+                "Controls / Button / Tag, Hover",
+                "Controls / Button / Tag",
+                "Controls / Button / Tag, Selected"
+            ]
+        },
+        {
+            "name": "This is my lovely link!",
+            "path": "src/components/Link/Link.js",
+            "urlPaths": {
+                "custom": "about"
+            },
+            "zeplinNames": [
+                "Link"
+            ]
+        },
+        {
+            "path": "src/components/Card/Card.js",
+            "zeplinNames": [
+                "Card with reviews",
+                "Card Description",
+                "Card"
+            ]
+        },
+        {
+            "path": "src/components/DatePicker/DatePicker.js",
+            "zeplinNames": [
+                "Controls / Date Picker"
+            ]
+        },
+        {
+            "path": "src/components/Header/Header.js",
+            "zeplinNames": [
+                "Header",
+                "Detail header",
+                "Header, Detail"
+            ]
+        },
+        {
+            "path": "src/components/HeaderItem/HeaderItem.js",
+            "zeplinNames": [
+                "Detail header title / Selected",
+                "Detail header title / ",
+                "Header / Title / Small / Dark",
+                "Header title / Selected",
+                "Header / Title / Small",
+                "Header title / ",
+                "Header title / Dark"
+            ]
+        },
+        {
+            "path": "src/components/Star/Star.js",
+            "urlPaths": {
+                "custom": "about"
+            },
+            "zeplinNames": [
+                "Star / Full",
+                "Star / Half",
+                "Star / Empty"
+            ]
+        }
+    ],
+    "baseURLs": [
+        {
+            "name": "Zeplin",
+            "type": "custom",
+            "url": "https://zeplin.io/connected-components"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/zeplin/zeplin-react-component"
+        }
+    ]
+}
