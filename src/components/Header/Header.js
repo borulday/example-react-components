@@ -15,6 +15,10 @@ import HeaderItem from "../../components/HeaderItem/HeaderItem";
 class Header extends React.Component {
     render() {
         const {
+            hasNavigation,
+            previousPageTitle,
+            backroundColor,
+            size,
             children
         } = this.props;
 
@@ -30,6 +34,10 @@ class Header extends React.Component {
 }
 
 Header.propTypes = {
+    hasNavigation: PropTypes.bool,
+    previousPageTitle: PropTypes.string,
+    backroundColor: PropTypes.string,
+    size: PropTypes.string,
     children: PropTypes.object
 };
 

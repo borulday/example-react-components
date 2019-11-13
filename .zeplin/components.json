@@ -1,5 +1,7 @@
 {
-    "projects": [],
+    "projects": [
+        "5dc528209f937277ce41c9be"
+    ],
     "styleguides": [
         "5dc5288c4c166a77d39d17f4"
     ],
@@ -89,6 +91,25 @@
                 "Star / Half",
                 "Star / Empty"
             ]
+        },
+        {
+            "path": "src/components/Comment/Comment.js",
+            "urlPaths": {
+                "github": "src/components/Comment/Comment.js",
+                "custom": "about"
+            },
+            "zeplinNames": [
+                "Comment"
+            ]
+        },
+        {
+            "path": "src/components/Search/Search.js",
+            "urlPaths": {
+                "github": "src/components/Search/Search.js"
+            },
+            "zeplinNames": [
+                "Search field"
+            ]
         }
     ],
     "baseURLs": [
@@ -99,7 +120,7 @@
         },
         {
             "type": "github",
-            "url": "https://github.com/zeplin/example-react-components/tree/master"
+            "url": "https://github.com/borulday/example-react-components/tree/master"
         }
     ]
 }
