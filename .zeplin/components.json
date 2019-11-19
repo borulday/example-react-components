@@ -1,16 +1,11 @@
 {
-    "projects": [
-        "5dc528209f937277ce41c9be"
-    ],
+    "projects": [],
     "styleguides": [
-        "5dc5288c4c166a77d39d17f4"
+        "5cd36efbc6c39a038ad38c79"
     ],
     "components": [
         {
             "path": "src/components/Button/Button.js",
-            "urlPaths": {
-                "github": "src/components/Button/Button.js"
-            },
             "zeplinNames": [
                 "Controls / Button / Primary",
                 "Controls / Button / Primary, Hover",
@@ -20,24 +15,49 @@
         {
             "name": "Cool special Apple Pay button",
             "path": "src/components/Button/Button.js",
-            "urlPaths": {
-                "github": "src/components/Button/Button.js"
-            },
             "zeplinNames": [
                 "Controls / Button / Apple Pay"
-            ]
+            ],
+            "storybook": {
+                "kind": "Button",
+                "stories": [
+                    "appearance",
+                    "dark background"
+                ]
+            },
+            "styleguidist": {
+                "kind": "button"
+            },
+            "wiki": {
+                "urlPath": "components/Button"
+            },
+            "public": {
+                "urlPath": "components/Button"
+            }
         },
         {
             "name": "Tag button",
             "path": "src/components/Button/Button.js",
-            "urlPaths": {
-                "github": "src/components/Button/Button.js"
-            },
             "zeplinNames": [
                 "Controls / Button / Tag, Hover",
                 "Controls / Button / Tag",
                 "Controls / Button / Tag, Selected"
-            ]
+            ],
+            "storybook": {
+                "kind": "Button",
+                "stories": [
+                    "with icon"
+                ]
+            },
+            "styleguidist": {
+                "kind": "button"
+            },
+            "wiki": {
+                "urlPath": "components/Button"
+            },
+            "public": {
+                "urlPath": "components/Button"
+            }
         },
         {
             "name": "This is my lovely link!",
@@ -82,10 +102,6 @@
         },
         {
             "path": "src/components/Star/Star.js",
-            "urlPaths": {
-                "github": "src/components/Star/Star.js",
-                "custom": "about"
-            },
             "zeplinNames": [
                 "Star / Full",
                 "Star / Half",
@@ -94,33 +110,54 @@
         },
         {
             "path": "src/components/Comment/Comment.js",
-            "urlPaths": {
-                "github": "src/components/Comment/Comment.js",
-                "custom": "about"
-            },
             "zeplinNames": [
                 "Comment"
             ]
         },
         {
             "path": "src/components/Search/Search.js",
-            "urlPaths": {
-                "github": "src/components/Search/Search.js"
-            },
             "zeplinNames": [
                 "Search field"
-            ]
+            ],
+            "storybook": {
+                "kind": "TextInput",
+                "stories": [
+                    "default",
+                    "simple"
+                ]
+            },
+            "styleguidist": {
+                "kind": "usernameinput"
+            },
+            "wiki": {
+                "urlPath": "components/Search.js"
+            },
+            "public": {
+                "urlPath": "components/Search.js"
+            }
         }
     ],
-    "baseURLs": [
+    "github": {
+        "repository": "borulday/example-react-components"
+    },
+    "links": [
         {
-            "name": "Zeplin",
-            "type": "custom",
-            "url": "https://zeplin.io"
+            "name": "Internal Design System Wiki",
+            "type": "wiki",
+            "url": "https://wiki.example.com/design-system"
         },
         {
-            "type": "github",
-            "url": "https://github.com/borulday/example-react-components/tree/master"
+            "name": "Public Design System Documentation",
+            "type": "public",
+            "url": "https://design.example.com/"
+        },
+        {
+            "type": "storybook",
+            "url": "https://auth0-cosmos.now.sh/sandbox/"
+        },
+        {
+            "type": "styleguidist",
+            "url": "https://app.omlet.io/docs/index.html"
         }
     ]
 }
