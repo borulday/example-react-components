@@ -1,7 +1,7 @@
 {
     "projects": [],
     "styleguides": [
-        "5cd36efbc6c39a038ad38c79"
+        "5cd486b18a64c1414be004fb"
     ],
     "components": [
         {
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "name": "Cool special Apple Pay button",
+            "name": "🍎 Apple Pay button",
             "path": "src/components/Button/Button.js",
             "zeplinNames": [
                 "Controls / Button / Apple Pay"
@@ -27,12 +27,6 @@
             },
             "styleguidist": {
                 "kind": "button"
-            },
-            "wiki": {
-                "urlPath": "components/Button"
-            },
-            "public": {
-                "urlPath": "components/Button"
             }
         },
         {
@@ -58,13 +52,6 @@
             "public": {
                 "urlPath": "components/Button"
             }
-        },
-        {
-            "name": "This is my lovely link!",
-            "path": "src/components/Link/Link.js",
-            "zeplinNames": [
-                "Link"
-            ]
         },
         {
             "path": "src/components/Card/Card.js",
