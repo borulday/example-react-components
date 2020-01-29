@@ -1,9 +1,11 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { Button } from '@storybook/react/demo';
+
+import Button from "../components/Button/Button";
 
 export default {
-  title: 'Button',
+  component: Button,
+  title: 'Button'
 };
 
 export const text = () => <Button onClick={action('clicked')}>Hello Button</Button>;

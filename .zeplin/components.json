@@ -1,4 +1,16 @@
 {
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:9009",
+                "startScript": "storybook"
+            }
+        },
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        }
+    ],
     "projects": [],
     "styleguides": [
         "5cd486b18a64c1414be004fb"
@@ -18,13 +30,6 @@
             "zeplinNames": [
                 "Controls / Button / Apple Pay"
             ],
-            "storybook": {
-                "kind": "Button",
-                "stories": [
-                    "appearance",
-                    "dark background"
-                ]
-            },
             "styleguidist": {
                 "kind": "button"
             }
@@ -37,12 +42,6 @@
                 "Controls / Button / Tag",
                 "Controls / Button / Tag, Selected"
             ],
-            "storybook": {
-                "kind": "Button",
-                "stories": [
-                    "with icon"
-                ]
-            },
             "styleguidist": {
                 "kind": "button"
             },
@@ -106,13 +105,6 @@
             "zeplinNames": [
                 "Search field"
             ],
-            "storybook": {
-                "kind": "TextInput",
-                "stories": [
-                    "default",
-                    "simple"
-                ]
-            },
             "styleguidist": {
                 "kind": "usernameinput"
             },
@@ -137,10 +129,6 @@
             "name": "Public Design System Documentation",
             "type": "public",
             "url": "https://design.example.com/"
-        },
-        {
-            "type": "storybook",
-            "url": "https://auth0-cosmos.now.sh/sandbox/"
         },
         {
             "type": "styleguidist",

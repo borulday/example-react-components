@@ -5,7 +5,8 @@ import classname from "../../utils/classname";
 import './Button.css';
 
 /**
- * A cool button 🔘 for some cool testing
+ * Default button used across the application. 
+ * Set type to primary to display in the brand accent color.
  * 
  * @param {Object} props 
  */
