@@ -22,11 +22,11 @@ class Comment extends React.Component {
 
         return (
             <div className="comment" onClick={onClick}>
-                {username}
-                {comment}
-                <img src={profileImage} />
-                {date}
-                {reactionsList}
+                {username}<br/>
+                {comment}<br/>
+                <img src={profileImage} alt="" /><br/>
+                {date}<br/>
+                {reactionsList}<br/>
             </div>
         );
     }

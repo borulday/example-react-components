@@ -19,9 +19,9 @@ class Card extends React.Component {
 
         return (
             <div className="card" imagePosition size>
-                {title}
-                {description}
-                <img src={image} />
+                <p>{title}</p>
+                <p>{description}</p>
+                <p><img src={image} alt="{title}" /></p>
             </div>
         );
     }
