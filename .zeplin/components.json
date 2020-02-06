@@ -128,11 +128,11 @@
         {
             "name": "Public Design System Documentation",
             "type": "public",
-            "url": "https://design.example.com/"
+            "url": "https://design.example.com"
         },
         {
             "type": "styleguidist",
-            "url": "https://app.omlet.io/docs/index.html"
+            "url": "https://styleguidist.example.com"
         }
     ]
 }
