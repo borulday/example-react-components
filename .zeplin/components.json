@@ -31,7 +31,7 @@
                 "Controls / Button / Apple Pay"
             ],
             "styleguidist": {
-                "kind": "button"
+                "name": "button"
             }
         },
         {
@@ -43,7 +43,7 @@
                 "Controls / Button / Tag, Selected"
             ],
             "styleguidist": {
-                "kind": "button"
+                "name": "button"
             },
             "wiki": {
                 "urlPath": "components/Button"
@@ -106,7 +106,7 @@
                 "Search field"
             ],
             "styleguidist": {
-                "kind": "usernameinput"
+                "name": "usernameinput"
             },
             "wiki": {
                 "urlPath": "components/Search.js"
