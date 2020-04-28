@@ -17,11 +17,17 @@
     ],
     "components": [
         {
+            "name": "Control button",
             "path": "src/components/Button/Button.js",
             "zeplinNames": [
-                "Controls / Button / Primary",
-                "Controls / Button / Primary, Hover",
-                "Controls / Button / Primary, Pressed"
+                "Controls / Button*"
+            ]
+        },
+        {
+            "name": "Primary control button",
+            "path": "src/components/Button/Button.js",
+            "zeplinNames": [
+                "Controls / Button / Primary*"
             ]
         },
         {
@@ -38,7 +44,6 @@
             "name": "Tag button",
             "path": "src/components/Button/Button.js",
             "zeplinNames": [
-                "Controls / Button / Tag, Hover",
                 "Controls / Button / Tag",
                 "Controls / Button / Tag, Selected"
             ],
@@ -53,11 +58,24 @@
             }
         },
         {
+            "name": "Hovered button",
+            "path": "src/components/Button/Button.js",
+            "zeplinNames": [
+                "*Button /*Hover"
+            ]
+        },
+        {
+            "name": "A card",
             "path": "src/components/Card/Card.js",
             "zeplinNames": [
-                "Card with reviews",
-                "Card Description",
-                "Card"
+                "*Card*"
+            ]
+        },
+        {
+            "name": "Review card",
+            "path": "src/components/Card/Card.js",
+            "zeplinNames": [
+                "Card with reviews"
             ]
         },
         {
@@ -75,29 +93,60 @@
             ]
         },
         {
+            "name": "Detail header",
             "path": "src/components/HeaderItem/HeaderItem.js",
             "zeplinNames": [
-                "Detail header title / Selected",
-                "Detail header title / ",
-                "Header / Title / Small / Dark",
-                "Header title / Selected",
-                "Header / Title / Small",
-                "Header title / ",
-                "Header title / Dark"
+                "Detail*header*"
+            ]
+        },
+        {
+            "name": "Header item",
+            "path": "src/components/HeaderItem/HeaderItem.js",
+            "zeplinNames": [
+                "*header*title*",
+                "*header*Title*",
+                "*Header*title*",
+                "*Header*Title*"
             ]
         },
         {
             "path": "src/components/Star/Star.js",
             "zeplinNames": [
-                "Star / Full",
-                "Star / Half",
-                "Star / Empty"
+                "Star*"
+            ]
+        },
+        {
+            "name": "Full star",
+            "path": "src/components/Star/Star.js",
+            "zeplinNames": [
+                "Star / Full"
             ]
         },
         {
             "path": "src/components/Comment/Comment.js",
             "zeplinNames": [
                 "Comment"
+            ]
+        },
+        {
+            "name": "Neutral reaction",
+            "path": "src/components/Reaction/Reaction.js",
+            "zeplinNames": [
+                "*Reaction*/ Neutral*"
+            ]
+        },
+        {
+            "name": "Passive reaction",
+            "path": "src/components/Reaction/Reaction.js",
+            "zeplinNames": [
+                "*Reaction*, Passive"
+            ]
+        },
+        {
+            "name": "Love, React?-ion",
+            "path": "src/components/Reaction/Reaction.js",
+            "zeplinNames": [
+                "Icons / Reaction / Love*"
             ]
         },
         {
