@@ -7,7 +7,7 @@
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^5.0.1",
     "sass": "^1.24.0",
     "typescript": "^3.7.4"
   },
@@ -38,6 +38,6 @@
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
-    "@storybook/react": "^5.2.8"
+    "@storybook/react": "^7.0.9"
   }
 }
